@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "mCustomTextField.h"
 
 @interface ViewController : UIViewController<UITextFieldDelegate>
 {

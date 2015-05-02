@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>91ACDB68-0F43-47E0-95A4-1170EB046BD3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>hello</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E54AF38B6D1240C39EBD6ED75CEBFC0CC9F6524D</key>
+		<string>http://github.com/lovelyworm/hello.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>hello.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E54AF38B6D1240C39EBD6ED75CEBFC0CC9F6524D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://github.com/lovelyworm/hello.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E54AF38B6D1240C39EBD6ED75CEBFC0CC9F6524D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E54AF38B6D1240C39EBD6ED75CEBFC0CC9F6524D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>hello</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -14,6 +14,8 @@
 		B963F54F1AF4A02600121AF0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B963F54E1AF4A02600121AF0 /* Images.xcassets */; };
 		B963F5521AF4A02600121AF0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B963F5501AF4A02600121AF0 /* LaunchScreen.xib */; };
 		B963F55E1AF4A02700121AF0 /* helloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B963F55D1AF4A02700121AF0 /* helloTests.m */; };
+		B963F5681AF4BBDE00121AF0 /* mCustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B963F5671AF4BBDE00121AF0 /* mCustomTextField.m */; };
+		B963F56E1AF4C90B00121AF0 /* textfield.png in Resources */ = {isa = PBXBuildFile; fileRef = B963F56D1AF4C90B00121AF0 /* textfield.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		B963F5571AF4A02700121AF0 /* helloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B963F55C1AF4A02700121AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B963F55D1AF4A02700121AF0 /* helloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloTests.m; sourceTree = "<group>"; };
+		B963F5671AF4BBDE00121AF0 /* mCustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mCustomTextField.m; sourceTree = "<group>"; };
+		B963F5691AF4BC0500121AF0 /* mCustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mCustomTextField.h; sourceTree = "<group>"; };
+		B963F56D1AF4C90B00121AF0 /* textfield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = textfield.png; path = hello/resource/textfield.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,7 @@
 		B963F5351AF4A02600121AF0 = {
 			isa = PBXGroup;
 			children = (
+				B963F56A1AF4C8D200121AF0 /* resource */,
 				B963F5401AF4A02600121AF0 /* hello */,
 				B963F55A1AF4A02700121AF0 /* helloTests */,
 				B963F53F1AF4A02600121AF0 /* Products */,
@@ -88,6 +94,8 @@
 				B963F54B1AF4A02600121AF0 /* Main.storyboard */,
 				B963F54E1AF4A02600121AF0 /* Images.xcassets */,
 				B963F5501AF4A02600121AF0 /* LaunchScreen.xib */,
+				B963F5671AF4BBDE00121AF0 /* mCustomTextField.m */,
+				B963F5691AF4BC0500121AF0 /* mCustomTextField.h */,
 				B963F5411AF4A02600121AF0 /* Supporting Files */,
 			);
 			path = hello;
@@ -117,6 +125,14 @@
 				B963F55C1AF4A02700121AF0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B963F56A1AF4C8D200121AF0 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				B963F56D1AF4C90B00121AF0 /* textfield.png */,
+			);
+			name = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B963F54D1AF4A02600121AF0 /* Main.storyboard in Resources */,
+				B963F56E1AF4C90B00121AF0 /* textfield.png in Resources */,
 				B963F5521AF4A02600121AF0 /* LaunchScreen.xib in Resources */,
 				B963F54F1AF4A02600121AF0 /* Images.xcassets in Resources */,
 			);
@@ -221,6 +238,7 @@
 			files = (
 				B963F54A1AF4A02600121AF0 /* ViewController.m in Sources */,
 				B963F5471AF4A02600121AF0 /* AppDelegate.m in Sources */,
+				B963F5681AF4BBDE00121AF0 /* mCustomTextField.m in Sources */,
 				B963F5441AF4A02600121AF0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +434,7 @@
 				B963F5631AF4A02700121AF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B963F5641AF4A02700121AF0 /* Build configuration list for PBXNativeTarget "helloTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +443,7 @@
 				B963F5661AF4A02700121AF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
