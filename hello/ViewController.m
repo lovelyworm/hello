@@ -14,9 +14,41 @@
 
 @implementation ViewController
 
+@synthesize label;
+@synthesize textField;
+@synthesize button;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    label = [[UILabel alloc]initWithFrame:CGRectMake(60, 39, 194, 46)];
+    label.backgroundColor = [self.view backgroundColor];
+    label.text = @"hello";
+    [self.view addSubview:label];
+    
+    textField.delegate = self;
+    
+    self.textField = [[UITextField alloc]initWithFrame:CGRectMake(60, 169, 194, 46)];
+    textField.placeholder = @"please enter";
+    textField.borderStyle = UITextBorderStyleRoundedRect;
+    [self.view addSubview:textField];
+    
+    self.button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [button setFrame:CGRectMake(98, 210, 72, 31)];
+    [button addTarget:self action:@selector(sayHello:)forControlEvents:UIControlEventTouchUpInside];
+    [button setTitle:@"press" forState:UIControlStateNormal];
+    [self.view addSubview:button];
+    
+}
+
+- (void)sayHello:(id)sender{
+    NSString* str = textField.text;
+    NSString* message = [[NSString alloc] initWithFormat:@"hello %@",str ];
+    label.text = message;
+    [textField resignFirstResponder];
+}
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    [textField resignFirstResponder];
 }
 
 - (void)didReceiveMemoryWarning {

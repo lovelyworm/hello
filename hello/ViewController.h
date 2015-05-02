@@ -15,5 +15,10 @@
     UIButton* button;
 }
 
+@property(nonatomic,retain) UILabel* label;
+@property(nonatomic,retain) UITextField* textField;
+@property(nonatomic,retain) UIButton* button;
+
+- (void)sayHello:(id)sender;
 @end
 
